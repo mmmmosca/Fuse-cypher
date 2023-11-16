@@ -15,4 +15,4 @@ for n in word_num:
 	except:
 		print(alphabet[int(n)],end='')
 		
-#It is an encryption system that assigns each letter of the given word its corresponding ASCII value, divides this value in half, and then combines the results to obtain a new value, which is then converted back into a letter of the alphabet.
+#It is an cyphering system that assigns each letter of the given word its corresponding ASCII value, divides this value in half, and then combines the results to obtain a new value, which is then converted back into a letter of the alphabet.
