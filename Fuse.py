@@ -1,5 +1,4 @@
 import string
-import loadinganim
 alphabet = list(string.ascii_uppercase)
 alphabet.append(' ')
 word = list(str(input().upper()))
@@ -8,8 +7,6 @@ word_num = []
 for letter in word:
 	word_num.append(alphabet.index(letter)+1)
 
-loadinganim.clear()
-loadinganim.start(5)
 for n in word_num:
 	try:
 		if n == 27:
