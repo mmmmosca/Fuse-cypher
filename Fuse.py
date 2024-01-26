@@ -7,8 +7,6 @@ word_num = []
 for letter in word:
 	word_num.append(ord(letter))
 
-loadinganim.clear()
-loadinganim.start(5)
 done = False
 
 for n in word_num:
