@@ -1,5 +1,4 @@
 import string
-import loadinganim
 alphabet = list(string.ascii_uppercase)
 word = list(str(input().upper()))
 word_num = []
