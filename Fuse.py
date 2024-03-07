@@ -6,8 +6,6 @@ word_num = []
 for letter in word:
 	word_num.append(ord(letter))
 
-done = False
-
 for n in word_num:
 	n = str(n)
 	sn = int(len(n)/2)
